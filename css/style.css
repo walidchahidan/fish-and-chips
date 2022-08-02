@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-image:url("../img/fond.png") ;
+}
+header{
+    background-color: #34b1b2;
+    border-top: 3px solid #055050;
+    border-bottom: 3px solid #055050;
+    margin-top: 30px;
+
+}
+nav>ul>li{
+    display: inline-block;
+    
+    
+}
+header>img{
+    display: block;
+    margin: auto;
+    
+}
+nav{
+   display: block;
+   margin-right: 35px;
+   text-align: center;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+h2{
+    text-align: center;
+}
+.sec1>p{
+    margin: 30px 350px;
+    text-align: center;
+}
+.sec2{
+    display: inline-block;
+    background-color: #b6dedc;
+    max-width: 60%;
+    margin-left: 150px;
+    overflow: auto;
+}
+.art1{
+    display: inline-block;
+    float: left;
+    max-width: 50%;
+}
+.art2{
+
+}
+.sec2>h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+article{
+    padding: 0px 20px;
+    
+}
+.sec2>article>img{
+    
+    border-radius: 60%;
+    float: left;
+    margin-right: 20px;
+}
+span{
+      color: #055050;
+}
+aside{
+    background-color: #34b1b2;
+    max-width: 20vw;
+    border: 2px solid #2b9aa0;
+    float: right;
+    margin-right: 80px;
+    color: white;
+    position: relative;
+    padding-bottom: 70px;
+    
+}
+aside>img{
+    position: absolute;
+    top: -15%;
+    left: 70%;
+}
+footer>img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    margin-top: 10px;
+}
+footer>p{
+    text-align: center;
+}
+button{
+    background-color: #34b1b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    float: right;
+}
+h4{
+    color: #2b9aa0;
+}
