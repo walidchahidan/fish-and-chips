@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Opensans;
+    src: url("../font/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: slabo;
+    src: url("../font/Slabo_27px/Slabo27px-Regular.ttf");
+}
+
 body{
     margin: 0;
     background-image:url("../img/fond.png") ;
@@ -11,7 +20,7 @@ header{
 }
 nav>ul>li{
     display: inline-block;
-    
+    font-family: slabo;
     
 }
 header>img{
@@ -31,6 +40,8 @@ a{
     font-size: large;
 }
 h2{
+    font-family: slabo;
+    font-size: 2.5em;
     text-align: center;
 }
 .sec1>p{
@@ -43,6 +54,7 @@ h2{
     max-width: 60%;
     margin-left: 150px;
     overflow: auto;
+    padding-bottom: 20px;
 }
 .art1{
     display: inline-block;
@@ -53,12 +65,14 @@ h2{
 
 }
 .sec2>h1{
+    font-family: slabo;
+    font-size: 3.5em;
     text-align: center;
     margin-bottom: 30px;
 }
 article{
     padding: 0px 20px;
-    
+                                
 }
 .sec2>article>img{
     
@@ -78,8 +92,11 @@ aside{
     color: white;
     position: relative;
     padding-bottom: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
     
 }
+
 aside>img{
     position: absolute;
     top: -15%;
@@ -94,6 +111,9 @@ footer>img{
 footer>p{
     text-align: center;
 }
+h3{
+    font-size: 1.4em;
+}
 button{
     background-color: #34b1b2;
     color: white;
@@ -102,5 +122,19 @@ button{
     float: right;
 }
 h4{
-    color: #2b9aa0;
+    font-family: slabo;
+    color:#055050;
+    font-size: 1.8em;
+}
+i{
+    color: #34b1b2;
+}
+button>i{
+    color: white;
+}
+aside>p>i{
+    color: white;
+}
+p{
+    font-family: Opensans;
 }
