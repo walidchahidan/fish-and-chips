@@ -55,13 +55,16 @@ h2{
     margin-left: 150px;
     overflow: auto;
     padding-bottom: 20px;
+    
 }
 .art1{
     display: inline-block;
     float: left;
     max-width: 50%;
+    
 }
 .art2{
+
 
 }
 .sec2>h1{
@@ -71,13 +74,15 @@ h2{
     margin-bottom: 30px;
 }
 article{
+    vertical-align: top;
     padding: 0px 20px;
+    
                                 
 }
 .sec2>article>img{
     
     border-radius: 60%;
-    float: left;
+    
     margin-right: 20px;
 }
 span{
